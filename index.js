@@ -6,6 +6,10 @@ app.get('/',(req,res)=>{
     res.send("Server started Hello sirr jiii ")
 });
 
+app.get('/new',(req,res)=>{
+    res.send("Just the next page")
+});
+
 
 app.listen(port, () => {
     console.log(`Server started running on port ${port}`);
