@@ -14,6 +14,10 @@ app.get('/new2',(req,res)=>{
     res.send("Another page of the repo for testing")
 });
 
+app.get('/newwwwwww',(req,res)=>{
+    res.send("Just one more page ")
+});
+
 
 app.listen(port, () => {
     console.log(`Server started running on port ${port}`);
